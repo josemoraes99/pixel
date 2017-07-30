@@ -7,3 +7,5 @@ https://github.com/b-jesch/service.kn.switchtimer
 
 Permite criar até 10 lembretes para no PVR do kodi.
 
+Link para download:
+https://github.com/josemoraes99/pixel.lembretes/raw/master/service.pixel.lembretes.zip
