@@ -1,4 +1,8 @@
 CHANGELOG
+2.0.4
+- added Brazilian portuguese language
+- added the name of the show in countdown timer
+- changed the default settings to show countdown timer
 
 2.0.2
 - create settings path if not exists. This avoids IOExceptions when writing timers and the addon
