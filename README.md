@@ -1,4 +1,5 @@
 <h1>PVR switch timer aka PVR reminder</h1>
+<h1>PVR switch timer aka PVR reminder</h1>
 
 Original made by Birger Jesch
 https://github.com/b-jesch/service.kn.switchtimer
@@ -9,3 +10,18 @@ Permite criar até 10 lembretes para no PVR do kodi.
 
 Link para download:
 https://github.com/josemoraes99/pixel.lembretes/raw/master/service.pixel.lembretes.zip
+
+
+<h2>Instalação</h2>
+
+- Abrir o Kodi >> Sistema >> Add-ons >> Instalar a partir de um arquivo ZIP
+
+- Procurar o arquivo service.pixel.lembretes.zip
+
+<h2>Utilização</h2>
+
+- Abra o Guia de programação
+
+- Escolha um programa que gostaria de ser lembrado
+
+- Aperte a tecla menu (ou segure a tecla OK) e selecione a opção "Adicionar Lembrete"
