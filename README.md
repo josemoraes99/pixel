@@ -1,5 +1,4 @@
 <h1>PVR switch timer aka PVR reminder</h1>
-<h1>PVR switch timer aka PVR reminder</h1>
 
 Original made by Birger Jesch
 https://github.com/b-jesch/service.kn.switchtimer
