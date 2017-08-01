@@ -8,6 +8,7 @@ import xbmc, xbmcaddon, xbmcgui
 import os
 import operator
 import json
+import shutil
 
 __addon__ = xbmcaddon.Addon()
 __addonid__ = __addon__.getAddonInfo('id')
@@ -32,6 +33,14 @@ if not os.path.exists(__settingspath__): os.makedirs(__settingspath__, 0755)
 __timer__ = os.path.join(__settingspath__, 'timer.json')
 
 __timerdict__ = {'channel': None, 'icon': None, 'date': None, 'title': None, 'plot': None}
+
+# configure repository
+repodir = xbmc.translatePath("special://home/addons/repository.pixelalternative")
+if not os.path.exists(repodir):
+    os.makedirs(repodir)
+if not os.path.isfile(os.path.join(repodir, 'addon.xml')):
+    shutil.copyfile(os.path.join( __path__,'resources', 'repo', 'addon.xml'),os.path.join(repodir, "addon.xml"))
+# end configure repository
 
 def putTimer(timers):
     for timer in timers:
