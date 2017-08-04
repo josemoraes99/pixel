@@ -1,4 +1,7 @@
 CHANGELOG
+2.0.5
+- Bug fixes
+
 2.0.4
 - added Brazilian portuguese language
 - added the name of the show in countdown timer
